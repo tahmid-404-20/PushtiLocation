@@ -51,4 +51,6 @@ app.post('/union', async (req, res) => {
     }
 });
 
-app.listen(PORT, () => {});
+app.listen(PORT, () => {
+    console.log(`Pushti-LocationMS is running on port ${PORT}`);
+});
